@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: ottasa
-Version: 0.1.0
-Summary: Run opensource Text-to-Speech model with one command
-Requires-Python: >=3.12
-Description-Content-Type: text/markdown
-Requires-Dist: fastapi>=0.141.1
-Requires-Dist: typer>=0.27.2
-Requires-Dist: uvicorn>=0.53.0

@@ -1,6 +1,9 @@
 MODELS = {
     "kokoro": {
         "type": "tts",
+    },
+    "qwen": {
+        "type": "tts",
     }
 }
 
