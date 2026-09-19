@@ -1,6 +1,7 @@
-import typer
+from datetime import datetime
 from rich.console import Console
 from rich.table import Table
+import typer
 
 from ottasa.identity import get_model_id
 from ottasa.models import model_supported
@@ -55,8 +56,6 @@ def list_models():
         size = get_model_size(model)
 
         modified = model_path.stat().st_mtime
-
-        from datetime import datetime
 
         modified_time = datetime.fromtimestamp(modified)
 
