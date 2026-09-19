@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/ottasa/__init__.py
+src/ottasa/cli.py
+src/ottasa.egg-info/PKG-INFO
+src/ottasa.egg-info/SOURCES.txt
+src/ottasa.egg-info/dependency_links.txt
+src/ottasa.egg-info/entry_points.txt
+src/ottasa.egg-info/requires.txt
+src/ottasa.egg-info/top_level.txt
